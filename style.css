@@ -74,8 +74,8 @@ input, button{
 }
 
 input:focus{
-    outline: :none;
-border-color: var(--corprimaria);
+    outline:none;
+border-color: var(--cor-primaria);
 box-shadow: 0 0 8PX RGBA(0, 123, 255, 0.2);
 
 }
@@ -107,4 +107,6 @@ button:hover{
     opacity: 1;
 }
 
-
+#resultado.visivel{
+    opacity: 1;
+}
